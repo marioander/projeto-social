@@ -1,0 +1,41 @@
+@charset "UTF8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(../imagens/preto-abstrato.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.iphone {
+    height: 80vh;
+    width: auto;
+    position: absolute;
+}
+
+iframe {
+    padding-top: 10.3vh;
+    position: absolute;
+    height: 60vh;
+    width: 34vh;
+}
+
+.icones {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
