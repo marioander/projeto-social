@@ -38,4 +38,12 @@ iframe {
     position: relative;
     display: flex;
     justify-content: end;
+    height: 70vh;
+    padding: 20px;
+}
+
+.icones > a {
+    padding: 20px;
+    height: 80px;
+    vertical-align: auto;
 }
