@@ -10,7 +10,7 @@ body {
     background-image: url(../imagens/preto-abstrato.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 98vh;
+    height: 100vh;
 }
 
 .container {
@@ -38,8 +38,8 @@ iframe {
     position: relative;
     display: flex;
     justify-content: end;
-    height: 70vh;
-    padding: 10px;
+    height: 10vh;
+    padding: 5px;
 }
 
 a > img {
