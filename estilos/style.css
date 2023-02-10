@@ -28,7 +28,7 @@ body {
 }
 
 iframe {
-    padding-top: 10.3vh;
+    padding-top: 10.2vh;
     position: absolute;
     height: 60vh;
     width: 34vh;
@@ -39,11 +39,11 @@ iframe {
     display: flex;
     justify-content: end;
     height: 70vh;
-    padding: 20px;
+    padding: 10px;
 }
 
-.icones > a {
-    padding: 20px;
-    height: 80px;
-    vertical-align: auto;
+a > img {
+    padding: 1vw;
+    height: 5vh;
+    width: 5vh;
 }
