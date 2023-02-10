@@ -39,11 +39,20 @@ iframe {
     display: flex;
     justify-content: end;
     height: 10vh;
-    padding: 5px;
+    padding-right: 5px;
 }
 
 a > img {
     padding: 1vw;
-    height: 5vh;
-    width: 5vh;
+    height: 4vh;
+    width: 4vh;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.588);
+}
+
+a > img:hover {
+    border: 1px solid white;
+        transition: 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.834);
+    
 }
