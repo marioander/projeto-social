@@ -43,8 +43,10 @@ iframe {
 
 
 a > img {
-    height: 50px;
-    width: 50px;
+    height: 7vw;
+    width: 7vw;
+    max-height: 50px;
+    max-width: 50px;
     margin: 10px;
     border-radius: 50%;
     border: 1px solid transparent;
