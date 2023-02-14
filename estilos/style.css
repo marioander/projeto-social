@@ -14,31 +14,27 @@ body {
 }
 
 .container {
-    display: block;
     position: relative;
     margin: auto;
-    padding-top: 5%;
+    padding-top: 10vh;
     width: 34.5vh;
+    left: -50px;
 }
 
 .iphone {
     height: 80vh;
     width: auto;
     position: absolute;
-    display: block;
-    margin: auto;
 }
 
 iframe {
-    padding-top: 1.9vh;
+    margin-top: 2vh;
     left: 2.1vh;
     position: absolute;
-    height: 76.2vh;
+    height: 76vh;
     width: 35.3vh;
-    border-radius: 40px;
-    overflow: hidden;
+    border-radius: 25px;
     background-color: black;
-    
 }
 
 .icones {
