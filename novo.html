@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content, .outer-border {
+            width: 240px;
+            height: 150px;
+            text-align:justify;
+            background-color:green;
+            color:white;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        .outer-border {
+            border: 2px solid black;
+            position: relative;
+            overflow: hidden;
+        }
+        .inner-border {
+            position: absolute;
+            left: 0;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-border">
+            <div class="inner-border">
+                <div class="content">
+GeeksforGeeks is a computer science portal. 
+It is a good platform to learn programming. It is an educational 
+website. Prepare for the Recruitment drive of product based 
+companies like Microsoft, Amazon, Adobe etc with a free online
+placement preparation course. The course focuses on various 
+MCQ's & Coding question likely to be asked in the interviews 
+& make your upcoming placement season efficient and successful. 
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
