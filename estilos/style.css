@@ -10,7 +10,7 @@ body {
     background-image: url(../imagens/preto-abstrato.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 99vh;
 }
 
 .container {
@@ -34,6 +34,14 @@ iframe {
     height: 76vh;
     width: 35.3vh;
     border-radius: 25px;
+}
+
+.camera {
+    position: absolute;
+    margin-top: 2vh;
+    left: 9.8vh;
+    height: 3.2vh;
+
 }
 
 .icones {
